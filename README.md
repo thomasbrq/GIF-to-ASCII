@@ -14,5 +14,15 @@ Simple Python script to transform each frame of a .GIF image into ASCII art.
 ## 📚 Usage
 
 ```bash
-    python3 main.py <path/to/image.gif> <invert_scale (0-1)>
+    python3 main.py <path/to/image.gif> <invert (0-1)> <scale>
+```
+
+- Invert  : Optional
+- Scale   : Optional
+
+
+### Try
+
+```bash
+    python3 main.py examples/dancing-parrot.gif 0 50
 ```
